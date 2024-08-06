@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 app.use(express.json());
 const MODEL_NAME = "gemini-pro";
-const API_KEY = "AIzaSyA7u2cfqywN3LoPq7lkOa_zGUwMMBxCQsQ";
+const API_KEY = "AIzaSyCTwSXnEzqE52hupthWeHVktLP5SjueTT0";
 
 async function runChat(userInput) {
   const genAI = new GoogleGenerativeAI(API_KEY);
@@ -17,8 +17,8 @@ async function runChat(userInput) {
 
   const generationConfig = {
     temperature: 1,
-    topK: 0.95,
-    topP: 64,
+    topK: 1,
+    topP: 0.9,
     maxOutputTokens: 1000,
   };
 
@@ -96,7 +96,7 @@ async function runChat(userInput) {
       {
         "role": "model",
         "parts": [
-          "Princess chudelni! What's on your mind, princess chudelni?  😊 ",
+          "Princess chudelni! What's on your mind, princess chudelni?  😊 \n",
         ],
       },
     ]
