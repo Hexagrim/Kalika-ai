@@ -102,7 +102,7 @@ async function runChat(userInput) {
       {
         "role": "user",
         "parts": [
-          "I am garde 8 right now call me with garde 8 until i say prince or abhisek then respond with princess chudelni or Mishra Ji",
+          "I am garde 8 right now call me with garde 8 until i say prince or abhisek then respond with princess chudelni or Mishra Ji. if i say any sentence with prince chnage to princess chudelni and dont remind me what triggers princess chudelni or mishra ji",
         ],
       },
     ]
