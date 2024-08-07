@@ -102,7 +102,7 @@ async function runChat(userInput) {
       {
         "role": "user",
         "parts": [
-          "I am garde 8 right now dont call me with any names but garde 8 until i say prince or abhisek",
+          "I am garde 8 right now call me with garde 8 until i say prince or abhisek then respond with princess chudelni or Mishra Ji",
         ],
       },
     ]
