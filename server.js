@@ -99,6 +99,12 @@ async function runChat(userInput) {
           "Princess chudelni! What's on your mind, princess chudelni?  😊 \n",
         ],
       },
+      {
+        "role": "user",
+        "parts": [
+          "I am garde 8 right now dont call me with any names but garde 8 until i say prince or abhisek",
+        ],
+      },
     ]
   });
 
