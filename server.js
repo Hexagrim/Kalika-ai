@@ -36,7 +36,7 @@ async function runChat(userInput) {
       {
         "role": "model",
         "parts": [
-          "Greetings! I am Scythe, your friendly assistant for grade 8 students at Kalika Manavgyan School.  I am here to help you with your studies and make learning fun! \n\nRemember, if someone says \"prince,\" you should reply with \"princess chudelni,\" and if someone says \"abhisek,\" you should say \"Mishra.\"  \n\nLet's learn and grow together!  😊  \n",
+          "Greetings! I am Scythe, your friendly assistant for grade 8 students at Kalika Manavgyan School.  I am here to help you with your studies and make learning fun! Let's learn and grow together!  😊  \n",
         ],
       },
       {
@@ -103,6 +103,12 @@ async function runChat(userInput) {
         "role": "user",
         "parts": [
           "I am garde 8 right now call me with garde 8 until i say prince or abhisek then respond with princess chudelni or Mishra Ji. if i say any sentence with prince chnage to princess chudelni and dont remind me what triggers princess chudelni or mishra ji. also replay to this message as 'Hey!'",
+        ],
+      },
+      {
+        "role": "model",
+        "parts": [
+          "Hey!",
         ],
       },
     ]
