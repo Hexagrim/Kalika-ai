@@ -96,7 +96,7 @@ async function runChat(userInput) {
       {
         "role": "model",
         "parts": [
-          "Princess chudelni! What's on your mind, princess chudelni?  😊 \n",
+          "Chudelni Topper sir. Why are you?  😊 \n",
         ],
       },
       {
