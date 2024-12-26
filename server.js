@@ -48,7 +48,7 @@ async function runChat(userInput) {
       {
         "role": "model",
         "parts": [
-          "Princess chudelni! ",
+          "Chudelni Sir how are you? fine topping the class. Why do you always get 4.gpa. Give other students some of your grade too.",
         ],
       },
       {
